@@ -1,5 +1,6 @@
 const express = require('express')
 const routes = require('./routes')
+const { resolve } = require('path')
 require('./database')
 
 class App {
@@ -12,6 +13,10 @@ class App {
 
   middlewares() {
     this.server.use(express.json())
+    this.server.use(
+      '/files',
+      express.static(resolve(__dirname, '..', 'tmp', 'uploads'))
+    )
   }
 
   routes() {
