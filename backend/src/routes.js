@@ -10,6 +10,7 @@ const FileController = require('./app/controllers/FileController')
 const ProviderController = require('./app/controllers/ProviderController')
 const AppointmentController = require('./app/controllers/AppointmentController')
 const ScheduleController = require('./app/controllers/ScheduleController')
+const NotificationController = require('./app/controllers/NotificationController')
 
 const routes = new Router()
 const upload = multer(multerConfig)
@@ -26,6 +27,9 @@ routes.post('/appointments', AppointmentController.store)
 routes.get('/appointments', AppointmentController.index)
 
 routes.get('/schedule', ScheduleController.index)
+
+routes.get('/notifications', NotificationController.index)
+routes.put('/notifications/:id', NotificationController.update)
 
 routes.post('/files', upload.single('file'), FileController.store)
 
