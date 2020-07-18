@@ -8,6 +8,7 @@ const {
 } = require('date-fns')
 const { pt } = require('date-fns/locale')
 
+const Mail = require('../../lib/Mail')
 const User = require('../models/User')
 const File = require('../models/File')
 const Appointment = require('../models/Appointment')
@@ -98,7 +99,15 @@ class AppointmentController {
   }
 
   async delete(req, res) {
-    const appointment = await Appointment.findByPk(req.params.id)
+    const appointment = await Appointment.findByPk(req.params.id, {
+      include: [
+        {
+          model: User,
+          as: 'provider',
+          attributes: ['name', 'email'],
+        },
+      ],
+    })
 
     if (appointment.user_id !== req.userId) {
       res
@@ -114,6 +123,12 @@ class AppointmentController {
     }
     appointment.canceled_at = new Date()
     await appointment.save()
+
+    await Mail.sendMail({
+      to: `${appointment.provider.name} <${appointment.provider.email}>`,
+      subject: 'Agendamento cancelado',
+      text: 'Você tem um novo cancelamento',
+    })
 
     res.json(appointment)
   }
