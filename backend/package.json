@@ -4,10 +4,13 @@
   "main": "src/server.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "queue": "nodemon src/queue.js",
+    "start": "run-p queue dev"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "bee-queue": "^1.2.3",
     "date-fns": "^2.14.0",
     "express": "^4.17.1",
     "express-handlebars": "^5.1.0",
@@ -23,6 +26,7 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.4",
+    "npm-run-all": "^4.1.5",
     "sequelize-cli": "^6.2.0"
   }
 }
