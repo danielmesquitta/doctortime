@@ -16,13 +16,13 @@ export default createGlobalStyle`
     }
   }
   html, body, #root{
-    min-height: 100%;
+    height: 100%;
   }
   html{
     scroll-behavior: smooth;
     font-size: 62.5%; /*1rem === 10px*/
 
-    @media screen and (max-width: ${breakpoints.large}) {
+    /* @media screen and (max-width: ${breakpoints.large}) {
       font-size: 56.25%;
     }
 
@@ -32,7 +32,7 @@ export default createGlobalStyle`
 
     @media screen and (min-width: ${breakpoints.huge}) {
       font-size: 75%;
-    }
+    } */
   }  
   body{
     background: #fafafa no-repeat top;

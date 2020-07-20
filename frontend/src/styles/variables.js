@@ -1,4 +1,7 @@
-export const colors = {}
+export const colors = {
+  mainDark: '#2193b0',
+  mainLight: '#6dd5ed',
+}
 
 export const breakpoints = {
   small: '600px',
