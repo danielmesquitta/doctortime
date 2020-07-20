@@ -1,14 +1,7 @@
 import styled from 'styled-components'
 
-import { colors } from '~/styles/variables'
-
 export const Wrapper = styled.div`
   height: 100%;
-  background: linear-gradient(
-    to bottom right,
-    ${colors.mainDark},
-    ${colors.mainLight}
-  );
   display: flex;
   flex-direction: column;
   justify-content: center;

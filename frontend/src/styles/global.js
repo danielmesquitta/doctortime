@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 import 'react-toastify/dist/ReactToastify.css'
 
-import { breakpoints } from './variables'
+import { breakpoints, colors } from './variables'
 
 export default createGlobalStyle`
   /*Default*/
@@ -37,7 +37,11 @@ export default createGlobalStyle`
     } */
   }  
   body{
-    background: #fafafa no-repeat top;
+    background: linear-gradient(
+    to bottom right,
+    ${colors.mainDark},
+    ${colors.mainLight}
+  );
     background-size: cover;
     -webkit-font-smoothing: antialiased !important;
   }
