@@ -4,7 +4,11 @@ import { colors } from '~/styles/variables'
 
 export const Wrapper = styled.div`
   height: 100%;
-  background: linear-gradient(-90deg, ${colors.mainDark}, ${colors.mainLight});
+  background: linear-gradient(
+    to bottom right,
+    ${colors.mainDark},
+    ${colors.mainLight}
+  );
   display: flex;
   flex-direction: column;
   justify-content: center;

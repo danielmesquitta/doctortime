@@ -1,4 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
+import 'react-toastify/dist/ReactToastify.css'
+
 import { breakpoints } from './variables'
 
 export default createGlobalStyle`

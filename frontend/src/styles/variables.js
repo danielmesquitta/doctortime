@@ -1,6 +1,6 @@
 export const colors = {
-  mainDark: '#2193b0',
-  mainLight: '#6dd5ed',
+  mainDark: '#373B44',
+  mainLight: '#4286f4',
 }
 
 export const breakpoints = {
