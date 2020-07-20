@@ -42,6 +42,7 @@ export default createGlobalStyle`
     ${colors.mainDark},
     ${colors.mainLight}
   );
+    background-repeat: no-repeat;
     background-size: cover;
     -webkit-font-smoothing: antialiased !important;
   }
