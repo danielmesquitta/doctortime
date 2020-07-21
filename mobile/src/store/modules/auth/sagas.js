@@ -20,6 +20,7 @@ export function* signIn({ payload }) {
     api.defaults.headers.Authorization = `Bearer ${token}`
 
     yield put(signInSuccess(token, user))
+    Alert.alert('Sucesso!', 'Login concluído')
     // history.push('/dashboard')
   } catch (err) {
     Alert.alert(
@@ -37,7 +38,6 @@ export function* signUp({ payload }) {
       name,
       email,
       password,
-      provider: true,
     })
     // history.push('/')
   } catch (err) {
