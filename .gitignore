@@ -9,6 +9,7 @@
 # production
 */build
 
+
 # misc
 .DS_Store
 */.env.local
@@ -20,3 +21,43 @@
 */yarn-debug.log*
 */yarn-error.log*
 *.lock
+
+# Xcode
+mobile/*.pbxuser
+mobile/!default.pbxuser
+mobile/*.mode1v3
+mobile/!default.mode1v3
+mobile/*.mode2v3
+mobile/!default.mode2v3
+mobile/*.perspectivev3
+mobile/!default.perspectivev3
+mobile/xcuserdata
+mobile/*.xccheckout
+mobile/*.moved-aside
+mobile/DerivedData
+mobile/*.hmap
+mobile/*.ipa
+mobile/*.xcuserstate
+
+# Android/IntelliJ
+mobile/.idea
+mobile/.gradle
+mobile/local.properties
+mobile/*.iml
+
+# BUCK
+mobile/buck-out/
+mobile/\.buckd/
+mobile/*.keystore
+mobile/!debug.keystore
+
+# fastlane
+mobile/*/fastlane/report.xml
+mobile/*/fastlane/Preview.html
+mobile/*/fastlane/screenshots
+
+# Bundle artifact
+mobile/*.jsbundle
+
+# CocoaPods
+mobile/ios/Pods/
