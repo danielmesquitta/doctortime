@@ -1,25 +1,18 @@
+import 'react-native-gesture-handler'
+
 import React from 'react'
-import { View, Text, StatusBar, StyleSheet } from 'react-native'
+import { StatusBar } from 'react-native'
+
+import Routes from './routes'
+import { colors } from './styles/variables'
 
 function App() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Hello React Native</Text>
-    </View>
+    <>
+      <StatusBar backgroundColor={colors.mainDark} barStyle="light-content" />
+      <Routes />
+    </>
   )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    backgroundColor: '#222',
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  text: {
-    color: '#fafafa',
-    fontSize: 30,
-  },
-})
 
 export default App
