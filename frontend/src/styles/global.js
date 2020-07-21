@@ -17,8 +17,8 @@ export default createGlobalStyle`
       outline: 0;
     }
   }
-  html, body, #root{
-    height: 100%;
+  html{
+    min-height: 100%;
   }
   html{
     scroll-behavior: smooth;

@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,6 +8,10 @@ export const Wrapper = styled.div`
 `
 
 export const Content = styled.div`
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   width: 100%;
   max-width: 50rem;
   text-align: center;
