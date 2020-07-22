@@ -1,15 +1,20 @@
 import 'react-native-gesture-handler'
-import React from 'react'
+import React, { useEffect } from 'react'
 import { StatusBar } from 'react-native'
 import { PersistGate } from 'redux-persist/integration/react'
 import { Provider } from 'react-redux'
+import changeNavigationBarColor from 'react-native-navigation-bar-color'
 import './config/reactotron'
 
 import Routes from './routes'
 import { store, persistor } from '~/store'
 import { colors } from './styles/variables'
 
-function App() {
+function Index() {
+  useEffect(() => {
+    changeNavigationBarColor(colors.mainDark)
+  }, [])
+
   return (
     <Provider store={store}>
       <PersistGate persistor={persistor}>
@@ -20,4 +25,4 @@ function App() {
   )
 }
 
-export default App
+export default Index
