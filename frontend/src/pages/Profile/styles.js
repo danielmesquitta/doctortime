@@ -1,4 +1,7 @@
 import styled from 'styled-components'
+import { darken, lighten } from 'polished'
+
+import { colors } from '~/styles/variables'
 
 export const Container = styled.div`
   max-width: 60rem;
@@ -51,16 +54,17 @@ export const Container = styled.div`
     width: 100%;
     margin: 1rem 0 0;
     height: 4.4rem;
-    background: #bbb;
+    background: ${lighten(0.05, colors.error)};
     font-weight: bold;
     color: #222;
+    text-shadow: 0px 0px 3px #fafafa;
     border: 0;
     border-radius: 4px;
     font-size: 1.6rem;
     transition: all 0.2s;
 
     :hover {
-      background: #ccc;
+      background: ${lighten(0.06, colors.error)};
     }
   }
 `

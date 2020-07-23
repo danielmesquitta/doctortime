@@ -27,7 +27,7 @@ export default function Header() {
             </div>
             <img
               src={
-                profile.avatar.url ||
+                profile.avatar ? profile.avatar.url :
                 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSN7BAE9x9Eehg7-JnS_Kdn_QTT5Dl0Hac81w&usqp=CAU'
               }
               alt=""

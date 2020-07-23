@@ -25,7 +25,7 @@
     },
     {
         "merged": "/home/daniel/Projects/doctortime/mobile/android/app/build/intermediates/res/merged/debug/anim_catalyst_fade_out.xml.flat",
-        "source": "/home/daniel/.gradle/caches/transforms-2/files-2.1/2df131240336f888aa823ef172d031ce/jetified-react-native-0.63.1/res/anim/catalyst_fade_out.xml"
+        "source": "/home/daniel/.gradle/caches/transforms-2/files-2.1/be0edfb22a975217b27cc9aad87142d9/jetified-react-native-0.63.1/res/anim/catalyst_fade_out.xml"
     },
     {
         "merged": "/home/daniel/Projects/doctortime/mobile/android/app/build/intermediates/res/merged/debug/drawable_mtrl_tabs_default_indicator.xml.flat",
@@ -665,7 +665,7 @@
     },
     {
         "merged": "/home/daniel/Projects/doctortime/mobile/android/app/build/intermediates/res/merged/debug/anim_catalyst_slide_down.xml.flat",
-        "source": "/home/daniel/.gradle/caches/transforms-2/files-2.1/2df131240336f888aa823ef172d031ce/jetified-react-native-0.63.1/res/anim/catalyst_slide_down.xml"
+        "source": "/home/daniel/.gradle/caches/transforms-2/files-2.1/be0edfb22a975217b27cc9aad87142d9/jetified-react-native-0.63.1/res/anim/catalyst_slide_down.xml"
     },
     {
         "merged": "/home/daniel/Projects/doctortime/mobile/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
@@ -757,7 +757,7 @@
     },
     {
         "merged": "/home/daniel/Projects/doctortime/mobile/android/app/build/intermediates/res/merged/debug/layout_redbox_item_frame.xml.flat",
-        "source": "/home/daniel/.gradle/caches/transforms-2/files-2.1/2df131240336f888aa823ef172d031ce/jetified-react-native-0.63.1/res/layout/redbox_item_frame.xml"
+        "source": "/home/daniel/.gradle/caches/transforms-2/files-2.1/be0edfb22a975217b27cc9aad87142d9/jetified-react-native-0.63.1/res/layout/redbox_item_frame.xml"
     },
     {
         "merged": "/home/daniel/Projects/doctortime/mobile/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
@@ -841,7 +841,7 @@
     },
     {
         "merged": "/home/daniel/Projects/doctortime/mobile/android/app/build/intermediates/res/merged/debug/layout_fps_view.xml.flat",
-        "source": "/home/daniel/.gradle/caches/transforms-2/files-2.1/2df131240336f888aa823ef172d031ce/jetified-react-native-0.63.1/res/layout/fps_view.xml"
+        "source": "/home/daniel/.gradle/caches/transforms-2/files-2.1/be0edfb22a975217b27cc9aad87142d9/jetified-react-native-0.63.1/res/layout/fps_view.xml"
     },
     {
         "merged": "/home/daniel/Projects/doctortime/mobile/android/app/build/intermediates/res/merged/debug/anim_fragment_close_enter.xml.flat",
@@ -1125,7 +1125,7 @@
     },
     {
         "merged": "/home/daniel/Projects/doctortime/mobile/android/app/build/intermediates/res/merged/debug/xml_rn_dev_preferences.xml.flat",
-        "source": "/home/daniel/.gradle/caches/transforms-2/files-2.1/2df131240336f888aa823ef172d031ce/jetified-react-native-0.63.1/res/xml/rn_dev_preferences.xml"
+        "source": "/home/daniel/.gradle/caches/transforms-2/files-2.1/be0edfb22a975217b27cc9aad87142d9/jetified-react-native-0.63.1/res/xml/rn_dev_preferences.xml"
     },
     {
         "merged": "/home/daniel/Projects/doctortime/mobile/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
@@ -1313,7 +1313,7 @@
     },
     {
         "merged": "/home/daniel/Projects/doctortime/mobile/android/app/build/intermediates/res/merged/debug/layout_redbox_item_title.xml.flat",
-        "source": "/home/daniel/.gradle/caches/transforms-2/files-2.1/2df131240336f888aa823ef172d031ce/jetified-react-native-0.63.1/res/layout/redbox_item_title.xml"
+        "source": "/home/daniel/.gradle/caches/transforms-2/files-2.1/be0edfb22a975217b27cc9aad87142d9/jetified-react-native-0.63.1/res/layout/redbox_item_title.xml"
     },
     {
         "merged": "/home/daniel/Projects/doctortime/mobile/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -1377,7 +1377,7 @@
     },
     {
         "merged": "/home/daniel/Projects/doctortime/mobile/android/app/build/intermediates/res/merged/debug/layout_redbox_view.xml.flat",
-        "source": "/home/daniel/.gradle/caches/transforms-2/files-2.1/2df131240336f888aa823ef172d031ce/jetified-react-native-0.63.1/res/layout/redbox_view.xml"
+        "source": "/home/daniel/.gradle/caches/transforms-2/files-2.1/be0edfb22a975217b27cc9aad87142d9/jetified-react-native-0.63.1/res/layout/redbox_view.xml"
     },
     {
         "merged": "/home/daniel/Projects/doctortime/mobile/android/app/build/intermediates/res/merged/debug/animator-v21_design_appbar_state_list_animator.xml.flat",
@@ -2049,7 +2049,7 @@
     },
     {
         "merged": "/home/daniel/Projects/doctortime/mobile/android/app/build/intermediates/res/merged/debug/anim_catalyst_fade_in.xml.flat",
-        "source": "/home/daniel/.gradle/caches/transforms-2/files-2.1/2df131240336f888aa823ef172d031ce/jetified-react-native-0.63.1/res/anim/catalyst_fade_in.xml"
+        "source": "/home/daniel/.gradle/caches/transforms-2/files-2.1/be0edfb22a975217b27cc9aad87142d9/jetified-react-native-0.63.1/res/anim/catalyst_fade_in.xml"
     },
     {
         "merged": "/home/daniel/Projects/doctortime/mobile/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
@@ -2117,7 +2117,7 @@
     },
     {
         "merged": "/home/daniel/Projects/doctortime/mobile/android/app/build/intermediates/res/merged/debug/anim_catalyst_slide_up.xml.flat",
-        "source": "/home/daniel/.gradle/caches/transforms-2/files-2.1/2df131240336f888aa823ef172d031ce/jetified-react-native-0.63.1/res/anim/catalyst_slide_up.xml"
+        "source": "/home/daniel/.gradle/caches/transforms-2/files-2.1/be0edfb22a975217b27cc9aad87142d9/jetified-react-native-0.63.1/res/anim/catalyst_slide_up.xml"
     },
     {
         "merged": "/home/daniel/Projects/doctortime/mobile/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_design_ic_visibility.png.flat",
@@ -2149,7 +2149,7 @@
     },
     {
         "merged": "/home/daniel/Projects/doctortime/mobile/android/app/build/intermediates/res/merged/debug/drawable_redbox_top_border_background.xml.flat",
-        "source": "/home/daniel/.gradle/caches/transforms-2/files-2.1/2df131240336f888aa823ef172d031ce/jetified-react-native-0.63.1/res/drawable/redbox_top_border_background.xml"
+        "source": "/home/daniel/.gradle/caches/transforms-2/files-2.1/be0edfb22a975217b27cc9aad87142d9/jetified-react-native-0.63.1/res/drawable/redbox_top_border_background.xml"
     },
     {
         "merged": "/home/daniel/Projects/doctortime/mobile/android/app/build/intermediates/res/merged/debug/interpolator_mtrl_fast_out_slow_in.xml.flat",
@@ -2357,7 +2357,7 @@
     },
     {
         "merged": "/home/daniel/Projects/doctortime/mobile/android/app/build/intermediates/res/merged/debug/anim_catalyst_push_up_in.xml.flat",
-        "source": "/home/daniel/.gradle/caches/transforms-2/files-2.1/2df131240336f888aa823ef172d031ce/jetified-react-native-0.63.1/res/anim/catalyst_push_up_in.xml"
+        "source": "/home/daniel/.gradle/caches/transforms-2/files-2.1/be0edfb22a975217b27cc9aad87142d9/jetified-react-native-0.63.1/res/anim/catalyst_push_up_in.xml"
     },
     {
         "merged": "/home/daniel/Projects/doctortime/mobile/android/app/build/intermediates/res/merged/debug/color_abc_tint_switch_track.xml.flat",
@@ -2453,7 +2453,7 @@
     },
     {
         "merged": "/home/daniel/Projects/doctortime/mobile/android/app/build/intermediates/res/merged/debug/anim_catalyst_push_up_out.xml.flat",
-        "source": "/home/daniel/.gradle/caches/transforms-2/files-2.1/2df131240336f888aa823ef172d031ce/jetified-react-native-0.63.1/res/anim/catalyst_push_up_out.xml"
+        "source": "/home/daniel/.gradle/caches/transforms-2/files-2.1/be0edfb22a975217b27cc9aad87142d9/jetified-react-native-0.63.1/res/anim/catalyst_push_up_out.xml"
     },
     {
         "merged": "/home/daniel/Projects/doctortime/mobile/android/app/build/intermediates/res/merged/debug/drawable_abc_ic_go_search_api_material.xml.flat",
@@ -2505,7 +2505,7 @@
     },
     {
         "merged": "/home/daniel/Projects/doctortime/mobile/android/app/build/intermediates/res/merged/debug/layout_dev_loading_view.xml.flat",
-        "source": "/home/daniel/.gradle/caches/transforms-2/files-2.1/2df131240336f888aa823ef172d031ce/jetified-react-native-0.63.1/res/layout/dev_loading_view.xml"
+        "source": "/home/daniel/.gradle/caches/transforms-2/files-2.1/be0edfb22a975217b27cc9aad87142d9/jetified-react-native-0.63.1/res/layout/dev_loading_view.xml"
     },
     {
         "merged": "/home/daniel/Projects/doctortime/mobile/android/app/build/intermediates/res/merged/debug/color-v23_abc_tint_seek_thumb.xml.flat",
