@@ -1,4 +1,4 @@
-#Thu Jul 23 14:14:04 BRT 2020
+#Fri Jul 24 13:08:45 BRT 2020
 base.0=/home/daniel/Projects/doctortime/mobile/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

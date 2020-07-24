@@ -5,7 +5,7 @@ import Background from '~/styles/Background'
 import api from '~/services/api'
 
 const SelectProvider = ({ navigation }) => {
-  const [providers, setProviders] = useState(providers ? providers : [])
+  const [providers, setProviders] = useState([])
 
   useEffect(() => {
     ;(async () => {

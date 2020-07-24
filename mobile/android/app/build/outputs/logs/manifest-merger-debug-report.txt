@@ -9,6 +9,7 @@ MERGED from [com.facebook.flipper:flipper:0.37.0] /home/daniel/.gradle/caches/tr
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.37.0] /home/daniel/.gradle/caches/transforms-2/files-2.1/a65d6076e19ec393c728e4dca49568f4/flipper-network-plugin-0.37.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.37.0] /home/daniel/.gradle/caches/transforms-2/files-2.1/4c2d2364c35e2c493fd776ce36e653fa/flipper-fresco-plugin-0.37.0/AndroidManifest.xml:8:1-15:12
 MERGED from [:react-native-community_async-storage] /home/daniel/Projects/doctortime/mobile/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_datetimepicker] /home/daniel/Projects/doctortime/mobile/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
 MERGED from [:react-native-community_masked-view] /home/daniel/Projects/doctortime/mobile/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-gesture-handler] /home/daniel/Projects/doctortime/mobile/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-navigation-bar-color] /home/daniel/Projects/doctortime/mobile/node_modules/react-native-navigation-bar-color/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
@@ -95,6 +96,8 @@ application
 ADDED from /home/daniel/Projects/doctortime/mobile/android/app/src/main/AndroidManifest.xml:6:5-25:19
 MERGED from /home/daniel/Projects/doctortime/mobile/android/app/src/main/AndroidManifest.xml:6:5-25:19
 MERGED from /home/daniel/Projects/doctortime/mobile/android/app/src/main/AndroidManifest.xml:6:5-25:19
+MERGED from [:react-native-community_datetimepicker] /home/daniel/Projects/doctortime/mobile/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-20
+MERGED from [:react-native-community_datetimepicker] /home/daniel/Projects/doctortime/mobile/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.63.1] /home/daniel/.gradle/caches/transforms-2/files-2.1/be0edfb22a975217b27cc9aad87142d9/jetified-react-native-0.63.1/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.63.1] /home/daniel/.gradle/caches/transforms-2/files-2.1/be0edfb22a975217b27cc9aad87142d9/jetified-react-native-0.63.1/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.8.2] /home/daniel/.gradle/caches/transforms-2/files-2.1/fe63e2f04783b5c513186b2b6e7e30fe/soloader-0.8.2/AndroidManifest.xml:11:5-20
@@ -171,6 +174,8 @@ MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.37.0] /home/daniel/.gr
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.37.0] /home/daniel/.gradle/caches/transforms-2/files-2.1/4c2d2364c35e2c493fd776ce36e653fa/flipper-fresco-plugin-0.37.0/AndroidManifest.xml:11:5-13:41
 MERGED from [:react-native-community_async-storage] /home/daniel/Projects/doctortime/mobile/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_async-storage] /home/daniel/Projects/doctortime/mobile/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_datetimepicker] /home/daniel/Projects/doctortime/mobile/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_datetimepicker] /home/daniel/Projects/doctortime/mobile/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-community_masked-view] /home/daniel/Projects/doctortime/mobile/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_masked-view] /home/daniel/Projects/doctortime/mobile/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-gesture-handler] /home/daniel/Projects/doctortime/mobile/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
