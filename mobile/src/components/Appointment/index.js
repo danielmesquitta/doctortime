@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react'
 import { parseISO, formatRelative } from 'date-fns'
 import { pt } from 'date-fns/locale'
-import { TouchableOpacity } from 'react-native-gesture-handler'
+import { TouchableOpacity } from 'react-native'
 import Icon from 'react-native-vector-icons/FontAwesome'
 
 import { colors } from '~/styles/variables'

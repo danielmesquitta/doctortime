@@ -1,6 +1,4 @@
 import styled from 'styled-components/native'
-import { TouchableOpacity } from 'react-native-gesture-handler'
-import { colors } from '~/styles/variables'
 
 export const Container = styled.SafeAreaView`
   margin-bottom: 15px;

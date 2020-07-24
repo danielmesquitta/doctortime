@@ -1,5 +1,5 @@
 import styled from 'styled-components/native'
-import { TouchableOpacity } from 'react-native-gesture-handler'
+import { TouchableOpacity } from 'react-native'
 
 import Input from '~/components/Input'
 import Button from '~/components/Button'

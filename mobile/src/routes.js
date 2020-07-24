@@ -12,6 +12,7 @@ import SignUp from './pages/SignUp'
 import SignIn from './pages/SignIn'
 
 import Dashboard from './pages/Dashboard'
+import New from './pages/New'
 import Profile from './pages/Profile'
 
 import { colors } from '~/styles/variables'
@@ -44,6 +45,22 @@ export default function Routes() {
               tabBarIcon: ({ focused }) => (
                 <Icon
                   name="calendar"
+                  size={20}
+                  color={focused ? '#fafafa' : '#fafafa99'}
+                />
+              ),
+            }}
+          />
+
+          <Tab.Screen
+            name="New"
+            component={New}
+            options={{
+              tabBarVisible: false,
+              tabBarLabel: 'Agendar',
+              tabBarIcon: ({ focused }) => (
+                <Icon
+                  name="plus-circle"
                   size={20}
                   color={focused ? '#fafafa' : '#fafafa99'}
                 />

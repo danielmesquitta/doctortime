@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { Text } from 'react-native'
 
 import Background from '~/styles/Background'
 import { Container, Title, List } from './styles'
