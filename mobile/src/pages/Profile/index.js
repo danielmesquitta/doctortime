@@ -16,7 +16,7 @@ import Background from '~/styles/Background'
 import { updateProfileRequest } from '~/store/modules/user/actions'
 import { signOut } from '~/store/modules/auth/actions'
 
-const Profile = ({ navigation }) => {
+const Profile = () => {
   const dispatch = useDispatch()
   const profile = useSelector(state => state.user.profile)
 
@@ -52,7 +52,6 @@ const Profile = ({ navigation }) => {
 
   function handleLogout() {
     dispatch(signOut())
-    navigation.navigate('SignIn')
   }
 
   return (
