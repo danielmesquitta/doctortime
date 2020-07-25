@@ -5,7 +5,7 @@ import { Container, Title, List } from './styles'
 import Appointment from '~/components/Appointment'
 import api from '~/services/api'
 
-const Dashboard = () => {
+const Dashboard = ({ navigation }) => {
   const [appointments, setAppointments] = useState([])
 
   async function handleCancellation(id) {
@@ -21,11 +21,13 @@ const Dashboard = () => {
   }
 
   useEffect(() => {
-    ;(async () => {
-      const response = await api.get('appointments')
-      setAppointments(response.data)
-    })()
-  }, [appointments])
+    navigation.addListener('focus', () => {
+      ;(async () => {
+        const response = await api.get('appointments')
+        setAppointments(response.data)
+      })()
+    })
+  }, [])
 
   return (
     <Background>

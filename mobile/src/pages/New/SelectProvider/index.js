@@ -12,7 +12,7 @@ const SelectProvider = ({ navigation }) => {
       const response = await api.get('providers')
       setProviders(response.data)
     })()
-  }, [providers])
+  }, [])
 
   return (
     <Background>

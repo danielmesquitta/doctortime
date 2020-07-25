@@ -65,6 +65,7 @@ export default function Routes() {
                   color={focused ? '#fafafa' : '#fafafa99'}
                 />
               ),
+              unmountOnBlur: true,
             }}
           />
 
