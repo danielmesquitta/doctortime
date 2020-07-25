@@ -30,7 +30,7 @@ const Confirm = ({ navigation, route }) => {
           source={{
             uri: provider.avatar
               ? provider.avatar.url
-              : 'https://avatars2.githubusercontent.com/u/60039311?s=460&u=f8ba29994516053125b48e2ba258523a79f651e6&v=4',
+              : 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSN7BAE9x9Eehg7-JnS_Kdn_QTT5Dl0Hac81w&usqp=CAU',
           }}
         />
         <Name>{provider.name}</Name>
