@@ -1,6 +1,4 @@
-<h1 align="center">
-  <img src="Logo.PNG">
-</h1>
+# DoctorTime
 
 This project is divided in 3 parts, [REST API](#rest-api), [WEB](#web) and [MOBILE](#mobile). <br/><br/>
 It is composed by a website where entrepreneurs can offer tours in their companies, a mobile app, where people can schedule a visit and the rest api,
