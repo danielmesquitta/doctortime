@@ -1,8 +1,7 @@
-# DoctorTime
+# DoctorTime 🤒 🕔
 
 This project is divided in 3 parts, [REST API](#rest-api), [WEB](#web) and [MOBILE](#mobile). <br/><br/>
-It is composed by a website where entrepreneurs can offer tours in their companies, a mobile app, where people can schedule a visit and the rest api,
-to deal with all the data and logic, sending all requests and responses in real time with no need to reload any screen.
+In the website doctors can sign up to offer their services, being able to see their schedules and manage them. In the mobile app, clients can schedule a consult with their favorite doctor. The rest api deals with all the data and logic, sending all requests and responses in real time with no need to reload any screen.
 
 <br><br>
 <img src="Mockup.PNG">
