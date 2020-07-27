@@ -97,8 +97,6 @@ $ yarn start
 
 ### Start mobile
 
-**Step 1**: In another shell with the backend running, inside the techtours folder
-
 ```shell
 # Go to the correct folder
 $ cd mobile
