@@ -4,7 +4,7 @@ This project is divided in 3 parts, [REST API](#rest-api), [WEB](#web) and [MOBI
 In the website doctors can sign up to offer their services, being able to see their schedules and manage them. In the mobile app, clients can schedule a consult with their favorite doctor. The rest api deals with all the data and logic, sending all requests and responses in real time with no need to reload any screen.
 
 <br><br>
-<img src="Mockup.PNG">
+<img src="mockup.png">
 <br>
 
 ## REST API
